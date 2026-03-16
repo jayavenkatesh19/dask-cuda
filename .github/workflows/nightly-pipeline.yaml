@@ -1,8 +1,6 @@
 name: Trigger UCXX Nightly Build and Test Pipelines
 
 on:
-  schedule:
-    - cron: "0 5 * * *"  # 5am UTC / 1am EST
   workflow_dispatch:
     inputs:
       branch:
